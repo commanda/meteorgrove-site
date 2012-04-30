@@ -7,6 +7,10 @@ body {
 #center-container {
     margin-left: 140px;
     width: 740px;
+    border-left-style: solid;
+    border-color: rgba(255,255,255,0.3);
+    border-width:1px;
+    
 }
 
 #intro {
