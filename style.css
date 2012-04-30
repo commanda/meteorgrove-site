@@ -4,14 +4,17 @@ body {
     background-repeat:repeat-x;
 }
 
+.white-borders {
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
 #center-container {
     margin-left: 140px;
     padding-left: 15px;
+    padding-right: 15px;
+    border-top: none;
+    border-bottom: none;
     width: 740px;
-    border-left-style: solid;
-    border-color: rgba(255,255,255,0.3);
-    border-width:1px;
-    
 }
 
 #intro {
