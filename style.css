@@ -17,10 +17,12 @@ body text {
   line-height: 28px;
   }
   
-footer/final text {
-  font-size: 26px;
-  line-height: 28px
-  }  
+#footer {
+    font-family:  Chaparral Pro;
+    font-size: 26px;
+    line-height: 28px;
+    color: #ffffff;
+}  
 
 a {
   color: #db8533
