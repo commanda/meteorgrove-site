@@ -11,6 +11,12 @@ body {
     color: #ffffff;
     text-shadow: #000000 0px 2px 2px;
 }
+
+#logo {
+    background-image:url('logo.png');
+    width: 635px;
+    height: 358px;
+}
   
 .main-text {
     font-size: 18px;
