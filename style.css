@@ -24,6 +24,16 @@ body {
     width: 740px;
 }
 
+#left-little-line {
+    z-index: -1;
+    position: relative;
+    width: 140px;
+    top: 62px;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+}
+
 #horizontal-line {
     border-bottom: none;
     border-left: none;
