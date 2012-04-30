@@ -33,9 +33,13 @@ body {
 }
 
 #logo {
+    position: relative;
+    top: -27px;
+    margin-left: 52px;
     background-image:url('logo.png');
     width: 635px;
     height: 358px;
+    z-index: 2;
 }
   
 .main-text {
