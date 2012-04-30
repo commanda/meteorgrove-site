@@ -8,6 +8,13 @@ body {
     border: 1px solid rgba(255,255,255,0.3);
 }
 
+#top-space {
+    height: 34px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
 #center-container {
     margin-left: 140px;
     padding-left: 15px;
