@@ -4,6 +4,11 @@ body {
     background-repeat:repeat-x;
 }
 
+#center-container {
+    margin-left: 140px;
+    width: 740px;
+}
+
 #intro {
     font-family:  Chaparral Pro;
     font-size: 28px;
