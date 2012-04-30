@@ -5,17 +5,19 @@ body {
 }
 
 #intro {
-  font-family:  Chaparral Pro;
-  font-size: 28px;
-  line-height: 32px;
-  color: #ffffff;
-  text-shadow: #000000 0px 2px 2px;
+    font-family:  Chaparral Pro;
+    font-size: 28px;
+    line-height: 32px;
+    color: #ffffff;
+    text-shadow: #000000 0px 2px 2px;
 }
   
-body text {
-  font-size: 18px;
-  line-height: 28px;
-  }
+.main-text {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    font-family:  Chaparral Pro;
+}
   
 #footer {
     font-family:  Chaparral Pro;
