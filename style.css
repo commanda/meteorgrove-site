@@ -27,14 +27,15 @@ body {
 }  
 
 a {
-  color: #db8533
-  }
+    color: #db8533
+}
 
 a:hover {
-  color: #e7b17d;
-  }
+    color: #e7b17d;
+}
 
 a:active {
-  position: relative;
-  top: 1px;
-  }
+    position: relative;
+    top: 1px;
+}
+
