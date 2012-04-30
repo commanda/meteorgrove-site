@@ -24,6 +24,15 @@ body {
     width: 740px;
 }
 
+#horizontal-line {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    position: relative;
+    top: 350px;
+    height: 3px;
+}
+
 #intro {
     font-family:  Chaparral Pro;
     font-size: 28px;
