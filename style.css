@@ -3,3 +3,34 @@ body {
     background-image:url('background.png');
     background-repeat:repeat-x;
 }
+
+#intro {
+  font-family:  Chaparral Pro;
+  font-size: 28px;
+  line-height: 32px;
+  color: #ffffff;
+  text-shadow: #000000 0px 2px 2px;
+}
+  
+body text {
+  font-size: 18px;
+  line-height: 28px;
+  }
+  
+footer/final text {
+  font-size: 26px;
+  line-height: 28px
+  }  
+
+a {
+  color: #db8533
+  }
+
+a:hover {
+  color: #e7b17d;
+  }
+
+a:active {
+  position: relative;
+  top: 1px;
+  }
