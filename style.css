@@ -18,8 +18,8 @@ body {
 
 #center-container {
     margin: 0 auto;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 6px;
+    padding-right: 6px;
     border-top: none;
     border-bottom: none;
     width: 740px;
@@ -69,13 +69,13 @@ body {
     border-top: none;
     border-left: none;
     border-right: none;
-    padding: 5px;
+    padding: 15px;
 }
 
 #logo {
     position: relative;
     top: -27px;
-    margin-left: 52px;
+    margin-left: 45px;
     background-image:url('logo.png');
     width: 635px;
     height: 358px;
@@ -87,9 +87,30 @@ body {
     line-height: 28px;
     color: #ffffff;
     font-family:  Chaparral Pro;
-    width: 354px;
+    width: 362px;
     float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    border-top: none;
+    border-bottom: none;
 }
+
+#text-holder {
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+#left-text {
+    border-left: none;
+}
+
+#right-text {
+    padding-left: 20px;
+}
+
   
 #footer {
     font-family:  Chaparral Pro;
@@ -111,6 +132,7 @@ a:active {
     top: 1px;
 }
 
+/* things timothy said should be in every project from the start */
 .clearfix:after {
 	content: ".";
 	display: block;
