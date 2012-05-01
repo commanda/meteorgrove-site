@@ -66,6 +66,10 @@ body {
     line-height: 32px;
     color: #ffffff;
     text-shadow: #000000 0px 2px 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 5px;
 }
 
 #logo {
