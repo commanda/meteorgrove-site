@@ -55,9 +55,9 @@ body {
 #right-little-line {
     z-index: -1;
     position: absolute;
-    width: 1024px;
+    width: 590px;
     top: 27px;
-    right: -1024px;
+    right: -590px;
     border-bottom: none;
     border-right: none;
     border-left: none;
