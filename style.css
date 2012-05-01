@@ -3,6 +3,7 @@ body {
     background-image:url('background.png');
     background-repeat:repeat-x;
     margin: 0;
+    overflow-x: hidden;
 }
 
 .white-borders {
