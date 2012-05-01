@@ -28,9 +28,21 @@ body {
 #left-little-line {
     z-index: -1;
     position: absolute;
-    width: 340px;
+    width: 1024px;
     top: 27px;
-    left: -340px;
+    left: -1024px;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    
+}
+
+#right-little-line {
+    z-index: -1;
+    position: absolute;
+    width: 1024px;
+    top: 27px;
+    right: -1024px;
     border-bottom: none;
     border-right: none;
     border-left: none;
