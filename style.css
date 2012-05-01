@@ -1,0 +1,155 @@
+body {
+    background-color: #03365b;
+    background-image:url('background.png');
+    background-repeat:repeat-x;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.white-borders {
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+#top-space {
+    height: 34px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+#center-container {
+    margin: 0 auto;
+    padding-left: 6px;
+    padding-right: 6px;
+    border-top: none;
+    border-bottom: none;
+    width: 740px;
+    position: relative;
+}
+
+#left-little-line {
+    z-index: -1;
+    position: absolute;
+    width: 1024px;
+    top: 27px;
+    left: -1024px;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    
+}
+
+#right-little-line {
+    z-index: -1;
+    position: absolute;
+    width: 1024px;
+    top: 27px;
+    right: -1024px;
+    border-bottom: none;
+    border-right: none;
+    border-left: none;
+    
+}
+
+#horizontal-line {
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    position: absolute;
+    top: 379px;
+    height: 3px;
+    width: 100%;
+}
+
+#intro {
+    font-family:  Chaparral Pro;
+    font-size: 28px;
+    line-height: 32px;
+    color: #ffffff;
+    text-shadow: #000000 0px 2px 2px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding: 15px;
+}
+
+#logo {
+    position: relative;
+    top: -27px;
+    margin-left: 45px;
+    background-image:url('logo.png');
+    width: 635px;
+    height: 358px;
+    z-index: 2;
+}
+  
+.main-text {
+    font-size: 18px;
+    line-height: 28px;
+    color: #ffffff;
+    font-family:  Chaparral Pro;
+    width: 362px;
+    float: left;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    
+    border-top: none;
+    border-bottom: none;
+}
+
+#text-holder {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+
+
+#left-text {
+    border-left: none;
+}
+
+#right-text {
+    padding-left: 20px;
+}
+
+  
+#footer {
+    font-family:  Chaparral Pro;
+    font-size: 26px;
+    line-height: 28px;
+    color: #ffffff;
+    width: 650px;
+    padding: 20px 0;
+    margin: 0 auto;
+    border: none;
+}  
+
+a {
+    color: #db8533
+}
+
+a:hover {
+    color: #e7b17d;
+}
+
+a:active {
+    position: relative;
+    top: 1px;
+}
+
+/* things timothy said should be in every project from the start */
+.clearfix:after {
+	content: ".";
+	display: block;
+	clear: both;
+	visibility: hidden;
+	line-height: 0;
+	height: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
