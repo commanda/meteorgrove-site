@@ -75,7 +75,7 @@ body {
 }
 
 #intro {
-    font-family:  Chaparral Pro;
+    font-family: 'ChaparralProRegular';
     font-size: 28px;
     line-height: 32px;
     color: #ffffff;
@@ -100,7 +100,7 @@ body {
     font-size: 18px;
     line-height: 28px;
     color: #ffffff;
-    font-family:  Chaparral Pro;
+    font-family: 'ChaparralProRegular';
     width: 362px;
     float: left;
     padding-left: 10px;
@@ -130,7 +130,7 @@ body {
 
   
 #footer {
-    font-family:  Chaparral Pro;
+    font-family: 'ChaparralProRegular';
     font-size: 26px;
     line-height: 28px;
     color: #ffffff;
