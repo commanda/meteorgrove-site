@@ -101,9 +101,8 @@ body {
     line-height: 28px;
     color: #ffffff;
     font-family: 'ChaparralProRegular';
-    width: 362px;
+    width: 360px;
     float: left;
-    padding-left: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
     
@@ -122,6 +121,7 @@ body {
 
 #left-text {
     border-left: none;
+    padding-left: 15px;
 }
 
 #right-text {
