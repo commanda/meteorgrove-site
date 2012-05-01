@@ -2,6 +2,7 @@ body {
     background-color: #03365b;
     background-image:url('background.png');
     background-repeat:repeat-x;
+    margin: 0;
 }
 
 .white-borders {
@@ -53,9 +54,10 @@ body {
     border-bottom: none;
     border-left: none;
     border-right: none;
-    position: relative;
-    top: 350px;
+    position: absolute;
+    top: 379px;
     height: 3px;
+    width: 100%;
 }
 
 #intro {
