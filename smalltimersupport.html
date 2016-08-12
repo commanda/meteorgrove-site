@@ -20,6 +20,13 @@ p {
     font-size: 16pt;
 }
 
+p.figcaption {
+    font-family: 'Muli', sans-serif;
+    color: black;
+    font-size: 10pt;
+    text-align: center;
+}
+
 div.mainText {
     background-color: white;
     min-width: 500pt;
@@ -30,9 +37,18 @@ div.mainText {
     margin-right: 100pt;
 }
 
-img {
+div.fig {
+    width: 512px;
+}
+
+img.icon {
     float: right;
     margin: 10pt;
+}
+
+img.example {
+    margin: 10pt;
+    border: 2pt solid black;
 }
 
 body {
@@ -47,7 +63,7 @@ body {
 <div class="mainText">
 <h1>SmallTimer</h1>
 
-<div><img src="hourglass-256.png"></div>
+<div><img class="icon" src="hourglass-256.png"></div>
 
 <p>The smallest timer app you could ever hope for!</p>
 
@@ -56,6 +72,11 @@ body {
 <p>Useful for giving yourself a timed break before getting back to business.</p>
 
 <p>Use colons to specify times like "1:42" for one minute forty-two seconds, or "3:12:00" for three hours, twelve minutes, zero seconds.</p>
+
+<div class="fig">
+  <img class="example" src="1h23min.png" alt="one hour 23 minutes 52 seconds">
+  <p class="figcaption">Set a timer for one hour, twenty-three minutes, and fifty-two seconds</p>
+</div>
 
 <p>Start this app automatically when you log in to your computer in its option menu.</p>
 
